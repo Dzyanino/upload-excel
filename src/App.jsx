@@ -1,13 +1,10 @@
 import { Fragment } from "react";
-import "./App.css";
-import ReadExcelToExtract from "./ReadExcelToExtract";
+import ReadXLS from "./ReadXLS";
 
 function App() {
     return (
         <Fragment>
-            <div>
-                <ReadExcelToExtract />
-            </div>
+            <ReadXLS />
         </Fragment>
     );
 }
